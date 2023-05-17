@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todoList.css">
+  </head>
+
+  <body>
+    <h1>To-Do List</h1>
+    <input class="input-bar" id="input" placeholder="Add a new work">
+    <input id="date" type="date" class="date-picker">
+
+    <button class="add-btn" class="js-add" onclick="
+    updateList();
+    renderList();
+    refresh();
+    saveFile();
+    ">Add</button>
+    
+    <div class="work" id="div1"></div>
+
+    <script src="todoList.js"></script>
+  </body>
+</html>
