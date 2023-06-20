@@ -1,6 +1,6 @@
 class Person < ApplicationRecord
   validates :name, :age, presence: true
-  validates_with MyValidator
+  #validates_with MyValidator
   
   before_create :message 
   
